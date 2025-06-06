@@ -16,7 +16,7 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/express-restful-crud.git
+   git clone https://github.com/Misba0019/express-restful-crud.git
    cd express-restful-crud
    ```
 
@@ -53,3 +53,6 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
   - Delete a comment (`DELETE /comments/:id`)
 - Method-override enables form submissions to use PUT and DELETE methods.
 - The `getpost.html` file demonstrates how GET and POST requests work with form data.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
