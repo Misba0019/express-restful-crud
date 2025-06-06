@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>GET and POST Requests</h1>
+
+    <h2>GET</h2>
+    <!-- GET request form: Sends the 'meat' and 'qty' values as URL parameters to the localhost server -->
+    <form action="http://localhost:3000/tacos" method="get">
+        <input type="text" name="meat"> <!-- Text input for type of meat -->
+        <input type="number" name="qty"> <!-- Number input for quantity -->
+        <button>Submit</button> <!-- Submits the form data -->
+    </form>
+
+    <h2>POST</h2>
+    <!-- POST request form: Sends the 'meat' and 'qty' values as body parameters to the localhost server -->
+    <form action="http://localhost:3000/tacos" method="post">
+        <input type="text" name="meat"> <!-- Text input for type of meat -->
+        <input type="number" name="qty"> <!-- Number input for quantity -->
+        <button>Submit</button> <!-- Submits the form data -->
+    </form>
+
+</body>
+
+</html>
