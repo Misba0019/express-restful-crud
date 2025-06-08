@@ -54,5 +54,10 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
 - Method-override enables form submissions to use PUT and DELETE methods.
 - The `getpost.html` file demonstrates how GET and POST requests work with form data.
 
+## Credits
+
+- Inspired by Colt Steele's Web Developer Bootcamp - RESTful Routes
+- Built with [Express](https://expressjs.com/), [EJS](https://ejs.co/), [method-override](https://www.npmjs.com/package/method-override), and [uuid](https://www.npmjs.com/package/uuid)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
