@@ -4,6 +4,8 @@
 
 A simple Node.js project demonstrating RESTful CRUD operations using Express and EJS. This project manages a list of comments, allowing users to Create, Read, Update, and Delete comments through web forms and HTTP requests. It is designed as a learning resource for understanding RESTful APIs and server-side rendering with Express.
 
+---
+
 ## Features
 
 - RESTful routes for managing comments (Create, Read, Update, Delete)
@@ -11,6 +13,8 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
 - Method override to support PUT and DELETE requests from forms
 - Example GET and POST request handling with a sample tacos route
 - Unique IDs for comments using UUID
+
+---
 
 ## Usage
 
@@ -35,12 +39,16 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
    - Visit `/comments` to view and manage comments.
    - Use the included `getpost.html` to test GET and POST requests.
 
+---
+
 ## Required Libraries
 
 - [express](https://www.npmjs.com/package/express) - Web framework for Node.js
 - [ejs](https://www.npmjs.com/package/ejs) - Embedded JavaScript templating
 - [method-override](https://www.npmjs.com/package/method-override) - Allows use of HTTP verbs like PUT or DELETE in places where the client doesn't support it
 - [uuid](https://www.npmjs.com/package/uuid) - For generating unique IDs
+
+---
 
 ## How it Works
 
@@ -54,10 +62,20 @@ A simple Node.js project demonstrating RESTful CRUD operations using Express and
 - Method-override enables form submissions to use PUT and DELETE methods.
 - The `getpost.html` file demonstrates how GET and POST requests work with form data.
 
+---
+
 ## Credits
 
 - Inspired by Colt Steele's Web Developer Bootcamp - RESTful Routes
 - Built with [Express](https://expressjs.com/), [EJS](https://ejs.co/), [method-override](https://www.npmjs.com/package/method-override), and [uuid](https://www.npmjs.com/package/uuid)
+
+---
+
+## Show Your Support
+
+If you find this project helpful, please consider [starring the repository](https://github.com/Misba0019/express-restful-crud) to show your support!
+
+---
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
